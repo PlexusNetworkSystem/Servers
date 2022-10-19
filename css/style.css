@@ -41,17 +41,14 @@
   }
   .main_name {
     border-radius: 100%;
+    text-align: center;
     background-color: blue;
     overflow: hidden;
     width: 65%;
     height: 25%;
     margin: 5%;
     float:right;
-    display: inline-block;
     }
   img {
   width: 100%;
-  }
-  h1 { 
-    background-color: blue;
   }
