@@ -1,8 +1,6 @@
-
-function animation() {
-  document.getElementById('iframe').src = "loading.html";
+function goto_address(url) {
+  window.open(url, '_blank');
 }
 function change_address(data) {
-  animation();
   document.getElementById('iframe').src = data;
 }

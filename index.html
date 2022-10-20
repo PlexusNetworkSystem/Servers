@@ -4,36 +4,48 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="media_files/icon.png">
     <script type="text/javascript" src="js/script.js">
-        alert("Hello, world");
     </script>
 </head>
 
 <body>
-
-    <div class="div_left">
-        <div class="div_left_up">
+    <div class="div_right">
+        <div class="div_right_up">
           <div class="main_name_picture">
                 <div class="profile_picture">
                     <img src="https://avatars.githubusercontent.com/u/100467384?v=4" alt="profile_picture">
                 </div>
                 <div class="profile_name">
-                    <h1>Plexus Network Team</h1>
+                    <h1>Plexus Network Team Test Servers</h1>
                 </div>
           </div>
-
+          <div class="main_name_picture_animation">
+            <iframe class="loading_iframe" src="loading.html" frameborder="0"></iframe>
+          </div>
         </div>
-        <div class="div_left_down">
-            <img class="icon_of_links_div" src="media_files/youtube.png" onclick="change_address('https://www.youtube.com/embed/sQ1YXnh5Fo')" alt="youtube">
-            <img class="icon_of_links_div" src="media_files/twitch.png" onclick="change_address('https://twitch.com')" alt="twtich">
-            <img class="icon_of_links_div" src="media_files/github.png" onclick="change_address('https://github.com')" alt="github">
-            <img class="icon_of_links_div" src="media_files/patreon.png" onclick="change_address('https://patreon.com')" alt="patreon">
-            <img class="icon_of_links_div" src="media_files/discord.png" onclick="change_address('https://discord.com')" alt="discord">
+        <div class="div_right_down">
+            <img class="icon_of_links_div" src="media_files/youtube.png" onclick="goto_address('https://www.youtube.com/channel/UC_YNbfCMFmSeYsK2_i1HR-Q')" alt="youtube">
+            <img class="icon_of_links_div" src="media_files/twitch.png" onclick="goto_address('https://www.twitch.tv/plexus_system')" alt="twtich">
+            <img class="icon_of_links_div" src="media_files/github.png" onclick="goto_address('https://github.com/PlexusNetworkSystem')" alt="github">
+            <img class="icon_of_links_div" src="media_files/patreon.png" onclick="goto_address('https://www.patreon.com/plexusnetworksystem')" alt="patreon">
+            <img class="icon_of_links_div" src="media_files/discord.png" onclick="goto_address('https://discord.gg/dkVgDuS5AY')" alt="discord">
             <img class="icon_of_links_div" src="media_files/icon.png" onclick="change_address('github_readme.html');" alt="main"></img>
            </div>
     </div>
-    <div class="div_right">
-        <iframe id="iframe" src="github_readme.html" width="100%" height="100%">
-        </iframe>
+    <div class="div_left">
+        <div class="div_toast"></div>
+        <div class="div_30">
+            <iframe class="iframe" src="https://bellard.org/jslinux/vm.html?cpu=riscv64&url=fedora33-riscv.cfg&mem=256"></iframe>
+        </div>
+        <div class="div_30">
+            <iframe class="iframe" src="https://bellard.org/jslinux/vm.html?url=freedos.cfg&mem=64&graphic=1&w=720&h=400"></iframe>
+        </div>
+        <div class="div_toast"></div>
+        <div class="div_30">
+            <iframe class="iframe" src="https://bellard.org/jslinux/vm.html?url=alpine-x86.cfg&mem=192"></iframe>
+        </div>
+        <div class="div_30">
+            <iframe class="iframe" src="https://bellard.org/jslinux/vm.html?cpu=riscv64&url=buildroot-riscv64.cfg&mem=256"></iframe>
+        </div>
     </div>
 </body>
 </html>
