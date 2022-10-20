@@ -3,6 +3,7 @@ body {
   display: inline-block;
   overflow: hidden;
   border: #19b1f8;
+  margin: 0px;
 }
 .div_right_up {
     background-color: #000;
