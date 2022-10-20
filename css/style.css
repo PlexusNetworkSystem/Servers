@@ -22,6 +22,8 @@
     float: right;
     flex: content;
     display: inline-block;
+    background-image: url("../media_files/bg_video.webp");
+    background-position: center;
   }
   .div_left {
     background-color: red;
@@ -31,7 +33,7 @@
     float: left;
     display: inline-block;
   }
-  .div_profile_picture { 
+  .div_profile_picture {
     border-radius: 100%;
     overflow: hidden;
     width: 25%;
