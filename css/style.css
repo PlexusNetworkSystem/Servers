@@ -50,7 +50,7 @@ body {
    backdrop-filter: blur(5px);
    text-align: center;
    width: 100%;
-   height: 25%;
+   height: 26%;
    float: center;
    display: inline-block;
    margin-top: 5%;
@@ -138,13 +138,23 @@ body {
   }
   .div_toast {
     width: 100%;
-    height: 5%;
-    background-color: blue;
+    height: 10%;
+    background: linear-gradient(45deg, #000, rgb(1, 145, 145), #000);
     text-align: center;
     flex: content;
     float: left;
+    display: inline-block;
   }
   .iframe {
     width: 100%;
     height: 100%;
+  }
+  .image_in_toast {
+    width: 4%;
+    height: 100%;
+    background-image: url("media_files/icon.png");
+    text-align: center;
+    flex: content;
+    float: center;
+    display: inline-block;
   }
