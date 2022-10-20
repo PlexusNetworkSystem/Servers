@@ -150,11 +150,10 @@ body {
     height: 100%;
   }
   .image_in_toast {
-    width: 4%;
+    border-radius: 100%;
+    overflow: hidden;
+    width: 6.5%;
     height: 100%;
-    background-image: url("media_files/icon.png");
-    text-align: center;
-    flex: content;
     float: center;
-    display: inline-block;
+    flex: content;
   }
