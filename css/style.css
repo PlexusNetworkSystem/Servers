@@ -33,7 +33,9 @@ body {
     float: left;
     flex: content;
     display: inline-block;
-    border-style: hidden;
+    border-style: dashed;
+    border-width: thin;
+    border-color: cyan;
     overflow: hidden;
   }
   .div_right {
@@ -104,7 +106,7 @@ body {
     display: inline-block;
 
   }
-  .loading_iframe { 
+  .loading_iframe {
     text-align: center;
     margin: center;
     margin-top: 25%;
@@ -113,21 +115,21 @@ body {
    ::-webkit-scrollbar {
     width: 10px;
   }
-  
+
   /* Track */
   ::-webkit-scrollbar-track {
     background: #19b1f8;
   }
-  
+
   /* Handle */
   ::-webkit-scrollbar-thumb {
     background: #19b1f8;
   }
-  
+
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
     background: #19b1f8;
-  } 
+  }
   .div_30 {
     background-color: #000;
     text-align: center;
