@@ -28,14 +28,12 @@ body {
   .div_left {
     background-color: #0a0e12;
     text-align: center;
-    width: 75%;
+    width: 74.5%;
     height: 100%;
     float: left;
     flex: content;
     display: inline-block;
-    border-style: dashed;
-    border-width: thin;
-    border-color: cyan;
+
     overflow: hidden;
   }
   .div_right {
@@ -47,6 +45,9 @@ body {
     display: inline-block;
     border: #19b1f8;
     border-color: #19b1f8;
+    border-style: outset;
+    border-width: 2px;
+    border-color: cyan;
   }
  .main_name_picture {
    background-color: rgba(0, 0, 0, 0.25);
